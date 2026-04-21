@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dcdcdc;
+}
+
+.cv {
+    width: 900px;
+    margin: auto;
+    background: white;
+}
+
+/* HEADER */
+.header {
+    background-color: #2aa3a3;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.photo {
+    width: 120px;
+    height: 120px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    border: 4px solid white; 
+}
+
+.header-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 20px;
+    width: fit-content;   
+    margin: 10px auto 0 auto; 
+}
+
+.contact span {
+    display: flex;
+    align-items: right;
+    gap: 8px;
+    color: white;
+}
+
+/* STRUCTURE */
+.contenu {
+    display: flex;
+}
+
+/* GAUCHE */
+.gauche {
+    width: 30%;
+    background-color: #e3e3e3;
+    padding: 20px;
+}
+
+.gauche h3 {
+    color: #17abb3;
+    margin-top: 20px;
+}
+
+/* SKILLS */
+.skill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars {
+    color: #17abb3;
+}
+
+/* LANGUES ALIGNEMENT */
+.right {
+    float: right;
+}
+
+/* LISTES */
+ul {
+    padding-left: 20px;
+}
+
+/* DROITE */
+.droite {
+    width: 70%;
+    padding: 20px;
+}
+
+.droite h2 {
+    color: #2aa3a3;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* LIGNES */
+.ligne {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.ligne span {
+    color: #2aa3a3;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #17abb3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
